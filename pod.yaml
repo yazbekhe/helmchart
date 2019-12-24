@@ -7,8 +7,8 @@ metadata:
     role: myrole
 spec:
   containers:
-    - name: web
-      image: nginx
+    - name: web2
+      image: httpd
       ports:
         - name: web
           containerPort: 80
